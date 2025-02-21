@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Allan Lab - Team</title>
+  <meta name="description" content="Allan Lab: Team members">
+  <link rel="stylesheet" href="http://localhost:4000/css/main.css">
+  <link rel="canonical" href="http://localhost:4000/team/">
+
+
+
+</head>
+
+
+  <body>
+
+    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+  <div class="container-fluid">
+	<div class="navbar-header">
+	  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-1" aria-expanded="false">
+		<span class="sr-only">Toggle navigation</span>
+		<span class="icon-bar"></span>
+		<span class="icon-bar"></span>
+		<span class="icon-bar"></span>
+	  </button>
+	
+    <a class="navbar-brand" href="http://localhost:4000/">RHyCAM Lab @ University of Oklahoma </a>
+	</div>
+	<div class="collapse navbar-collapse" id="navbar-collapse-1">
+	  <ul class="nav navbar-nav navbar-right">
+		<li><a href="http://localhost:4000/">Home</a></li>
+		<li><a href="http://localhost:4000/team">Team</a></li>
+		<li><a href="http://localhost:4000/research">Research</a></li>
+		<li><a href="http://localhost:4000/publications">Publications</a></li>
+		<li><a href="http://localhost:4000/vacancies">Vacancies</a></li>
+	  </ul>
+	</div>
+  </div>
+</div>
+
+
+    <div class="container-fluid">
+      <div class="row">
+        <div id="gridid" class="col-sm-12">
+  # Group Members
+
+ **We are  looking for new PhD/Master students, Postdocs, and Undergrad students to join the team** [(see openings)](http://localhost:4000/vacancies) **!**
+
+
+Jump to [staff](#staff), [graduate students](#graduate-students), [undergrad students](#undergrad-students), [alumni](#alumni), [administrative support](#administrative-support), [lab visitors](#lab-visitors).
+
+## Staff
+
+
+
+
+
+
+<div class="row">
+
+
+<div class="col-sm-6 clearfix">
+  <img src="http://localhost:4000/images/teampic/ChenXiaodong.jpg" class="img-responsive" width="25%" style="float: left" />
+  <h4>Xiaodong Chen</h4>
+  <i>Assistant professor, started Jan 2025 <!--<br>email: <xiaodong.chen@ou.edu></i> -->
+  <ul style="overflow: hidden">
+
+  
+
+  
+
+  
+
+  
+
+  
+  <li> Master with <a href="https://geog.ucla.edu/person/dennis-lettenmaier/">D Lettenmaier</a>, UW </li>
+  <li> PhD with <a href="https://www.ce.washington.edu/facultyfinder/faisal-hossain">F Hossain</a>, UW </li>
+  <li> Postdoc with <a href="https://www.pnnl.gov/people/lai-yung-ruby-leung">L R Leung</a>, PNNL </li>
+  <li> Earth Scientist PNNL </li>
+  <li> <a href="../downloads/CV_ChenX.pdf">CV</a>, <a href="https://www.xiaodongchen.com">More info</a> </li>
+  
+
+  </ul>
+</div>
+
+
+
+
+
+
+
+
+
+</div>
+
+
+
+
+
+## Graduate Students
+
+
+
+
+
+
+<div class="row">
+
+
+<div class="col-sm-6 clearfix">
+  <img src="http://localhost:4000/images/teampic/HuiZi.jpg" class="img-responsive" width="25%" style="float: left" />
+  <h4>Zi Hui</h4>
+  <i>Master student (CEES), since 2024 <!-- <br>email: <xxxxx@ou.edu></i> -->
+  <ul style="overflow: hidden">
+
+  
+
+  
+
+  
+  <li> B.E., Chang'an University </li>
+  <li> M.E., Beijing Jiaotong University </li>
+  <li> Builder&Safety Engineer </li>
+  
+
+  
+
+  </ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+<div class="col-sm-6 clearfix">
+  <img src="http://localhost:4000/images/teampic/New_User.png" class="img-responsive" width="25%" style="float: left" />
+  <h4>New Student1</h4>
+  <i>incoming student () <!-- <br>email: <xxxxx@ou.edu></i> -->
+  <ul style="overflow: hidden">
+
+  
+  <li> B.S., Some University </li>
+  
+
+  
+
+  
+
+  
+
+  </ul>
+</div>
+
+
+
+
+</div>
+
+
+
+
+
+
+
+<div class="row">
+
+
+<div class="col-sm-6 clearfix">
+  <img src="http://localhost:4000/images/teampic/New_User.png" class="img-responsive" width="25%" style="float: left" />
+  <h4>New Student2</h4>
+  <i>incoming student () <!-- <br>email: <xxxxx@ou.edu></i> -->
+  <ul style="overflow: hidden">
+
+  
+  <li> B.S., Some University </li>
+  
+
+  
+
+  
+
+  
+
+  </ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+<div class="col-sm-6 clearfix">
+  <img src="http://localhost:4000/images/teampic/rock.jpg" class="img-responsive" width="25%" style="float: left" />
+  <h4>This could be you !</h4>
+  <i>See <a href="http://www.rhycam.com/vacancies">openings</a> for more info <!-- <br>email: <milan.allan@gmail.com></i> -->
+  <ul style="overflow: hidden">
+
+  
+
+  
+
+  
+
+  
+
+  </ul>
+</div>
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+## Undergrad Students
+
+
+
+
+
+
+<div class="row">
+
+
+<div class="col-sm-6 clearfix">
+  <img src="http://localhost:4000/images/teampic/rock.jpg" class="img-responsive" width="25%" style="float: left" />
+  <h4>This could be you !</h4>
+  <i>See <a href="http://www.allanlab.org/vacancies">openings</a> for more info <!-- <br>email: <milan.allan@gmail.com></i> -->
+  <ul style="overflow: hidden">
+
+  
+
+  
+
+  
+
+  
+
+  </ul>
+</div>
+
+
+
+
+
+
+
+
+
+</div>
+
+
+
+## Alumni
+
+
+
+
+  
+
+<div class="row">
+
+  
+<div class="col-sm-6 clearfix">
+  <img src="http://localhost:4000/images/teampic/verdoes.jpg" class="img-responsive" width="25%" style="float: left" />
+  <h4>Grad Alumni 1</h4>
+  <i>In the RHyCAM Lab 2015 - 2018, now Project manager at the FMD <br> Role: Fine mechanical engineer associated with the FMD working in our group</i>
+  <ul style="overflow: hidden">
+
+  </ul>
+</div>
+  
+
+
+
+
+
+
+
+  
+
+  
+<div class="col-sm-6 clearfix">
+  <img src="http://localhost:4000/images/teampic/irene.jpg" class="img-responsive" width="25%" style="float: left" />
+  <h4>Grad Alumni 2</h4>
+  <i>In the RHyCAM Lab Jan 2015 to June 2019, now R&D scientist at Nearfield Instruments <br> Role: PhD student</i>
+  <ul style="overflow: hidden">
+
+  </ul>
+</div>
+  
+
+
+
+</div>
+
+
+
+
+
+
+
+## Visitors, undergraduate almuni
+<div class="row">
+
+<div class="col-sm-6 clearfix">
+<h4>Visitors</h4>
+
+Visitor 1, Spring 2016
+
+Visitor 2, all of 2016
+
+</div>
+
+<div class="col-sm-6 clearfix">
+<h4>Undergrad Alumni</h4>
+
+U almuni 1, Spring 2025
+
+U alumni 2, Spring 2025
+
+</div>
+
+</div>
+
+## Administrative Support
+<a href="mailto:Rijsewijk@Physics.LeidenUniv.nl">Ellie van Rijsewijk</a> is helping us (and other groups) with administration.
+
+</div>
+
+      </div>
+    </div>
+
+    <div id="footer" class="panel">
+  <div class="panel-footer">
+	<div class="container-fluid">
+	  <div class="row">
+		<div class="col-sm-4">
+
+		  <p>&copy 2025 RHyCAM Lab. Site made with <a href="https://jekyllrb.com">Jekyll</a>; </p>
+		  <p>We are a collaborative team affiliated with both <a href="https://www.ou.edu/coe/cees">School of Civil Engineering and Environmental Science</a> and <a href="https://www.ou.edu/ags/meteorology">School of Meteorology</a> at the<a href="https://www.ou.edu"> University of Oklahoma (OU)</a>.</p>
+
+
+		   <p>  </p><p>
+
+
+		</div>
+		<div class="col-sm-4">
+		  Funding:<br />
+                  - StG and CoG from the <a href="https://erc.europa.eu">ERC</a><br />
+		  - <a href="http://www.nwo.nl/en/research-and-results/programmes/Talent+Scheme">Vidi </a> and <a href='https://www.fom.nl/en/news/press-releases/2016/11/18/28634/'>Projectruimte</a> grants from <a href="http://www.nwo.nl">NWO</a> <br />
+		  - <a href="https://www.universiteitleiden.nl/en/research/research-projects/science/frontiers-of-nanoscience-nanofront">Frontier of Nanosciences</a>, a gravity program from <a href="http://www.nwo.nl">NWO</a>
+		</div>
+		<div class="col-sm-4">
+		  Contact:<br />
+		  National Weather Center<br />
+		  120 David L Boren Blvd.<br />
+		  Norman, OK 73072<br />
+            (<a href="https://maps.app.goo.gl/wZyxmRRSNbHs1AsU7">Maps</a>)
+		</div>
+	  </div>
+	</div>
+  </div>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="http://localhost:4000/js/bootstrap.min.js"></script>
+
+
+  </body>
+
+</html>
