@@ -1,178 +1,306 @@
-<!DOCTYPE html>
-<html>
-
-  <head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>RHyCAM Lab - Home</title>
-  <meta name="description" content="RHyCAM Lab at University of Oklahoma.">
-  <link rel="stylesheet" href="https://www.rhycam.com/css/main.css">
-  <link rel="canonical" href="https://www.rhycam.com/">
-  <link rel="shortcut icon" href="/images/favicon.png">
-
-
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1"><title>RHyCAM Lab · Regional HydroClimate Analysis and Modeling Lab</title>
+<meta name="description" content="The Regional HydroClimate Analysis and Modeling (RHyCAM) Lab at the University of Oklahoma studies hydroclimate extremes, the changing water cycle, and clima...">
+<link rel="canonical" href="http://localhost:4000/">
+<meta property="og:title" content="Home">
+<meta property="og:description" content="The Regional HydroClimate Analysis and Modeling (RHyCAM) Lab at the University of Oklahoma studies hydroclimate extremes, the changing water cycle, and clima...">
+<meta property="og:image" content="http://localhost:4000/images/hero/hero_poster.webp">
+<meta name="theme-color" content="#0B1D2D">
+<link rel="icon" href="/images/favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Manrope:wght@600;700;800&display=swap">
+<link rel="stylesheet" href="/assets/css/main.css">
+<script src="/assets/js/main.js" defer></script>
 
 </head>
-
-
-  <body>
-
-    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
-  <div class="container-fluid">
-	<div class="navbar-header">
-	  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-1" aria-expanded="false">
-		<span class="sr-only">Toggle navigation</span>
-		<span class="icon-bar"></span>
-		<span class="icon-bar"></span>
-		<span class="icon-bar"></span>
-	  </button>
-	
-    <a class="navbar-brand" href="https://www.rhycam.com/">RHyCAM Lab @ University of Oklahoma </a>
-	</div>
-	<div class="collapse navbar-collapse" id="navbar-collapse-1">
-	  <ul class="nav navbar-nav navbar-right">
-		<li><a href="https://www.rhycam.com/">Home</a></li>
-		<li><a href="https://www.rhycam.com/people/">People</a></li>
-		<li><a href="https://www.rhycam.com/research">Research</a></li>
-		<li><a href="https://www.rhycam.com/publications">Publications</a></li>
-		<li><a href="https://www.rhycam.com/vacancies">Join us</a></li>
-	  </ul>
-	</div>
+<body class="home">
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-nav" data-nav>
+  <div class="nav-inner">
+    <a class="brand" href="/">
+      <span class="brand-name">RHyCAM</span><span class="brand-sub">Lab · University of Oklahoma</span>
+    </a>
+    <button class="nav-toggle" aria-expanded="false" aria-controls="nav-links" data-nav-toggle>
+      <span class="sr-only">Menu</span><span class="bar"></span><span class="bar"></span>
+    </button>
+    <nav id="nav-links" class="nav-links" aria-label="Main">
+      <a href="/research/">Research</a>
+      <div class="nav-item has-menu" data-nav-menu>
+        <a href="/discoveries/">Discoveries</a>
+        <button class="nav-menu-toggle" aria-expanded="false" aria-controls="nav-menu-2" data-nav-menu-toggle>
+          <span class="sr-only">Show Discoveries menu</span>
+        </button>
+        <ul class="nav-menu" id="nav-menu-2">
+          <li><a href="/discoveries/">Research Highlights</a></li>
+          <li><a href="/publications/">All Publications</a></li>
+        </ul>
+      </div>
+      <a href="/projects/">Projects & Partners</a>
+      <a href="/people/">People</a>
+      <a href="/news/">News</a>
+      <a href="/join/">Join / Contact</a>
+    </nav>
   </div>
+</header>
+
+  <main id="main">
+    <section class="hero">
+  <div class="hero-media">
+    <img class="hero-img" src="/images/hero/hero_poster.webp" alt="GOES-West satellite view of an atmospheric river stretching across the Pacific into the U.S. Pacific Northwest, 4–5 December 2023" fetchpriority="high">
+    <video class="hero-img hero-video" data-hero-video data-src="/images/hero/hero_animation.mp4" muted loop playsinline preload="none" disablepictureinpicture aria-hidden="true" tabindex="-1"></video>
+  </div>
+  <div class="hero-shade" aria-hidden="true"></div>
+  <div class="container hero-content">
+    <p class="eyebrow">Regional HydroClimate Analysis and Modeling Lab · University of Oklahoma</p>
+    <h1><span>Understanding Extremes.</span><span>Advancing Resilience.</span></h1>
+    <p class="hero-text">Connecting atmospheric science, hydrology, and engineering to understand our changing climate and build a more resilient future</p>
+    <p class="hero-actions"><a class="btn btn-primary" href="/research/">Explore Research</a><a class="btn btn-ghost" href="/people/">Meet Our Team</a>
+    </p>
+  </div>
+  <a class="scroll-cue" href="#who-we-are" aria-label="Scroll to content"><span></span></a><p class="hero-credit">Atmospheric river over the Pacific Northwest, Dec 4–5, 2023 · GOES-West imagery: NASA</p>
+</section>
+
+<section id="who-we-are" class="section">
+  <div class="container about-grid reveal">
+    <div>
+      <p class="eyebrow">Who we are</p>
+      <h2>Science that connects weather, water, and society.</h2>
+    </div>
+    <div>
+      <p class="lede">The Regional HydroClimate Analysis and Modeling (RHyCAM) Lab at the University of Oklahoma investigates hydroclimate processes and extremes using observations, numerical modeling, and artificial intelligence. Our work bridges fundamental Earth system science and practical engineering challenges, translating scientific understanding into actionable knowledge for a changing world.</p>
+      <p class="affil"><a href="https://www.ou.edu/coe/cees">School of Civil Engineering and Environmental Science</a><a href="https://www.ou.edu/ags/meteorology">School of Meteorology</a>
+      </p>
+    </div>
+  </div>
+</section>
+
+<section class="section section-tint">
+  <div class="container">
+    <div class="section-head">
+  <p class="eyebrow">Research themes</p>
+  <h2>What we study</h2>
+  
+  
 </div>
 
+    <div class="theme-grid"><a class="theme-card reveal" href="/research/hydroclimate-extremes/">
+  <img src="/images/themes/extremes.jpg" alt="Illustration of heavy rain sweeping over a forested coastline and rough surf" loading="lazy">
+  <div class="theme-card-body">
+    <h3>Hydroclimate Extremes</h3>
+    <p>Atmospheric processes, hydroclimate extremes, and compound hazards</p>
+    <span class="link-arrow">Explore</span>
+  </div>
+</a>
+<a class="theme-card reveal" href="/research/changing-water-cycle/">
+  <img src="/images/themes/water-cycle.jpg" alt="Illustration of a forested mountain valley with a river, snow-capped peaks, and low clouds" loading="lazy">
+  <div class="theme-card-body">
+    <h3>Changing Water Cycle</h3>
+    <p>Snowpack, precipitation, runoff, and climate change</p>
+    <span class="link-arrow">Explore</span>
+  </div>
+</a>
+<a class="theme-card reveal" href="/research/modeling-predictability/">
+  <img src="/images/themes/modeling.jpg" alt="Illustration of a workstation showing a simulated storm and model code, with mountains at dusk behind" loading="lazy">
+  <div class="theme-card-body">
+    <h3>Modeling & Predictability</h3>
+    <p>Hydroclimate modeling, downscaling, and Earth system predictability</p>
+    <span class="link-arrow">Explore</span>
+  </div>
+</a>
+<a class="theme-card reveal" href="/research/infrastructure-resilience/">
+  <img src="/images/themes/infrastructure.jpg" alt="Illustration of power transmission towers crossing misty, forested hills toward a reservoir" loading="lazy">
+  <div class="theme-card-body">
+    <h3>Infrastructure Resilience</h3>
+    <p>Translating hydroclimate science into engineering decisions</p>
+    <span class="link-arrow">Explore</span>
+  </div>
+</a>
 
-    <div class="container-fluid">
-      <div class="row">
-          <div id="homeid" class="col-sm-8">
-	  <h1>Welcome to the RHyCAM Lab</h1>
-
-	<p><b>We are looking for 1 Postdoc and 1 graduate students to join the team <a href="https://www.rhycam.com/vacancies">(more info)</a>.</b></p>
-
-<div id="carousel" class="carousel slide" data-ride="carousel" data-interval="4000" data-pause="hover">
-    <!-- Menu -->
-    <ol class="carousel-indicators">
-        <li data-target="#carousel" data-slide-to="1" class="active"></li>
-        <li data-target="#carousel" data-slide-to="2"></li>
-        <li data-target="#carousel" data-slide-to="3"></li>
-        <li data-target="#carousel" data-slide-to="4"></li>
-        <li data-target="#carousel" data-slide-to="5"></li>
-    </ol>
-
-    <!-- Items -->
-    <div class="carousel-inner">
-        <div class="item active">
-            <img src="https://www.rhycam.com/images/slider2025/S2025-01.png" alt="Slide 1" />
-        </div>
-        <div class="item">
-            <img src="https://www.rhycam.com/images/slider2025/S2025-02.png" alt="Slide 2" />
-        </div>
-        <div class="item">
-            <img src="https://www.rhycam.com/images/slider2025/S2025-03.gif" alt="Slide 3" />
-        </div>
-        <div class="item">
-            <img src="https://www.rhycam.com/images/slider2025/S2025-04.png" alt="Slide 4" />
-        </div>
-        <div class="item">
-            <img src="https://www.rhycam.com/images/slider2025/S2025-05.png" alt="Slide 5" />
-        </div>
     </div>
-  <a class="left carousel-control" href="#carousel" role="button" data-slide="prev">
-    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="right carousel-control" href="#carousel" role="button" data-slide="next">
-    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="section-head">
+  <p class="eyebrow">Featured discoveries</p>
+  <h2>What we have found</h2>
+  
+  
 </div>
 
-<p>We are the <strong>R</strong>egional <strong>Hy</strong>dro<strong>C</strong>limate <strong>A</strong>nalysis and <strong>M</strong>odeling (RHyCAM) Lab, a dynamic research group at the <a href="https://www.ou.edu">University of Oklahoma</a>, jointly affiliated with the <a href="https://www.ou.edu/coe/cees">School of Civil Engineering and Environmental Science</a> and the <a href="https://www.ou.edu/ags/meteorology">School of Meteorology</a>. Our mission is to explore and understand our changing environment and to help build resilient infrastructure for the future.</p>
-
-<p>As scientists, we develop innovative analysis frameworks and advanced modeling tools to study the water cycle and climate extremes—uncovering their historical patterns and projecting their future behavior. As engineers, we collaborate with local, state, and national stakeholders, policymakers, and engineering communities to translate our scientific insights into actionable solutions. Through this dual approach, we bridge the gap between research and real-world applications, ensuring our work contributes to a more sustainable and prepared society.</p>
-
-
+    <div class="feature-grid">
+      <article class="pub-card is-lead reveal">
+  <a class="pub-card-media" href="/discoveries/sharpening-cold-season-storms/" tabindex="-1" aria-hidden="true">
+    <img src="/images/pubpic/Chen-2023-NCC.png" alt="" loading="lazy">
+  </a>
+  <div class="pub-card-body">
+    <p class="meta">Nature Climate Change, 13 (2023)</p>
+    <h3><a href="/discoveries/sharpening-cold-season-storms/">Wettest Winter Storms in the Western U.S. Growing Wetter</a></h3><p>The strongest winter storms in the western U.S. could bring up to 40% more precipitation at storm centers by mid-century. Understanding these changes is important for assessing future storm risks and improving infrastructure planning.</p>
+    <p class="pub-media">See <a href="https://apnews.com/article/science-weather-us-news-california-climate-and-environment-868e006eb28242a61bd19bad25d47f1c">AP news</a>, <a href="https://www.sfchronicle.com/weather/article/california-winter-rain-storms-17731984.php">SF Chronicle</a>, <a href="https://www.pnnl.gov/news-media/wettest-winter-storms-western-us-growing-wetter">PNNL news release</a></p>
+    <p class="card-links"><a class="link-arrow" href="/discoveries/sharpening-cold-season-storms/">Read the story</a> · <a href="https://www.nature.com/articles/s41558-022-01578-0">Paper</a>
+    </p>
   </div>
-  <div id="newsid" class="col-sm-4" >
-	
-<div class="well">
-<h4>News</h4>
+</article>
 
-
-<p>16 October 2026<br><p><a href="https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2026MS005968">Collaboration paper</a> published on JAMES, looking into storm reconstruction using E3SM SCREAM model.</p>
-</p>
-
-<p>23 August 2026<br><p>Xiaodong is invited to join the npj Hydrosphere editorial board.</p>
-</p>
-
-<p>4 July 2026<br><p><a href="https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2025GL119814">Collaboration paper</a> published on <i>GRL</i>, exploring the use of AI in hydrologic modeling.</p>
-</p>
-
-<p>5 March 2026<br><p><a href="https://www.sciencedirect.com/science/article/pii/S2212094726000290">Collaboration paper</a> published on <i>Weather and Climate Extremes</i>, examining how heatwaves respond in the future warming world.</p>
-</p>
-
-<p>17 February 2026<br><p>Congratulations to Miranda on receiving the Student Presentation Award from the 106th AMS annual meeting!</p>
-</p>
-
-<p>11 February 2026<br><p><a href="https://journals.ametsoc.org/view/journals/bams/aop/BAMS-D-24-0325.1/BAMS-D-24-0325.1.xml">Lead paper</a> published on <i>BAMS</i>, examining dynamically and statistically downscaled precipitation data over the CONUS regarding their performance in constructing individual storm events for hydrological studies and impact assessment.</p>
-</p>
-
-<p>27 December 2025<br><p><b>Welcome Lujun and Lauren to join our group</b>!</p>
-</p>
-
-<p>9 November 2025<br><p><a href="https://www.sciencedirect.com/science/article/abs/pii/S0921818125004916">Paper</a> led by Yiming is published on <i>Global and Planetary Change</i>!</p>
-</p>
-
-<p>9 October 2025<br><p><a href="https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2025GL117588">Collaboration paper</a> accepted by <i>GRL</i>.</p>
-</p>
-
-
-<h4><a href="https://www.rhycam.com/allnews.html">... see all News</a></h4>
-
-    </div>
-
+      <div class="feature-side"><article class="pub-card reveal">
+  <a class="pub-card-media" href="https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2023JD039136" tabindex="-1" aria-hidden="true">
+    <img src="/images/pubpic/Chen-2023-JGRA.jpg" alt="" loading="lazy">
+  </a>
+  <div class="pub-card-body">
+    <p class="meta">J. Geophys. Res.: Atmos., 128 (2023)</p>
+    <h3><a href="https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2023JD039136">Wildfire Typing Improves Wildfire Predictions in the Western United States</a></h3><p>Machine-learning clustering identifies distinct weather and moisture conditions associated with wildfires in the western U.S., improving seasonal predictions by 10%. Historically, some wildfire types...</p>
+    <p class="pub-media">See <a href="https://eesm.science.energy.gov/research-highlights/wildfire-typing-improves-wildfire-predictions-western-united-states">DOE highlight</a>, <a href="https://www.pnnl.gov/publications/wildfire-typing-improves-wildfire-predictions-western-united-states">PNNL highlight</a></p>
+    <p class="card-links"><a href="https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2023JD039136">Paper</a>
+    </p>
   </div>
+</article>
+<article class="pub-card reveal">
+  <a class="pub-card-media" href="https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2023GL105530" tabindex="-1" aria-hidden="true">
+    <img src="/images/pubpic/Chen-2023-GRL.jpg" alt="" loading="lazy">
+  </a>
+  <div class="pub-card-body">
+    <p class="meta">Geophys. Res. Lett., 50 (2023)</p>
+    <h3><a href="https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2023GL105530">Footprint of Large-Scale Climate Variabilities on Regional Weather Systems</a></h3><p>WAC-hydro classifies daily weather into 12 types based on precipitation and temperature, connecting large-scale climate variability to snowpack, runoff, and floods in the Pacific...</p>
+    <p class="pub-media">See <a href="https://www.pnnl.gov/publications/footprint-large-scale-climate-variabilities-regional-weather-systems">PNNL highlight</a>, <a href="https://e3sm.org/footprint-of-large-scale-climate-variabilities-on-regional-weather-systems/">E3SM newsletter</a></p>
+    <p class="card-links"><a href="https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2023GL105530">Paper</a>
+    </p>
+  </div>
+</article>
 
       </div>
     </div>
-
-    <div id="footer" class="panel">
-  <div class="panel-footer">
-	<div class="container-fluid">
-	  <div class="row">
-		<div class="col-sm-4">
-
-		  <p>&copy 2025 RHyCAM Lab. Site made with <a href="https://jekyllrb.com">Jekyll</a>; </p>
-		  <p>We are a collaborative team affiliated with both <a href="https://www.ou.edu/coe/cees">School of Civil Engineering and Environmental Science</a> and <a href="https://www.ou.edu/ags/meteorology">School of Meteorology</a> at the<a href="https://www.ou.edu"> University of Oklahoma (OU)</a>.</p>
-
-
-		   <p>  </p><p>
-
-
-		</div>
-		<div class="col-sm-4">
-		  Funding:<br />
-		  - <a href="https://eesm.science.energy.gov/projects/framework-improving-analysis-and-modeling-earth-system-and-intersectoral-dynamics-regional">HyperFACETS project</a> from DOE<br />
-		  - USCMS project from NASA <br />
-		</div>
-		<div class="col-sm-4">
-		  Contact:<br />
-		  National Weather Center<br />
-		  120 David L Boren Blvd.<br />
-		  Norman, OK 73072<br />
-		  (<a href="https://maps.app.goo.gl/wZyxmRRSNbHs1AsU7">Maps</a>)<br />
-	    <a href="https://outlook.office.com/bookwithme/user/fb8f901023c447bc8c565c86d597c65c@ou.edu?anonymous&ep=plink">Schedule a meeting with Xiaodong</a>
-		</div>
-	  </div>
-	</div>
+    <p class="section-more"><a class="link-arrow" href="/discoveries/">All discoveries</a> · <a href="/publications/">All publications</a></p>
   </div>
+</section>
+
+<section class="section section-dark">
+  <div class="container">
+    <div class="section-head">
+  <p class="eyebrow">Projects & collaborations</p>
+  <h2>Science for real-world impact</h2>
+  
+  
 </div>
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-<script src="https://www.rhycam.com/js/bootstrap.min.js"></script>
+    <div class="card-grid"><article class="project-card reveal">
+  <div class="project-meta"><p class="meta">Archived · 2019-2026</p><p class="meta">DOE BER · Research project</p>
+  </div>
+  <h3><a href="/projects/hyperfacets/">HyperFACETS</a></h3>
+  <p>Advancing credible and actionable regional climate information </p><p class="project-role"><span>Our role</span> co-Investigator</p><p class="project-partners"><span>Partners</span> LBNL · PNNL</p>
+  <a class="link-arrow" href="/projects/hyperfacets/">Project details</a>
+</article>
+<article class="project-card reveal">
+  <div class="project-meta"><p class="meta">Active · 2025-2026</p><p class="meta">NSF ACCESS · Computing allocation</p>
+  </div>
+  <h3><a href="/projects/access-sgp/">High-resolution Modeling of Southern Great Plains Natural Hazards</a></h3>
+  <p>Evaluating high-resolution simulations of mesoscale convective systems</p><p class="project-role"><span>Our role</span> Lead</p>
+  <a class="link-arrow" href="/projects/access-sgp/">Project details</a>
+</article>
 
+      <article class="project-card reveal">
+        <p class="meta">Collaborations</p>
+        <h3>Collaborators</h3>
+        <ul class="plain"><li><a href="https://www.pnnl.gov/people/lai-yung-ruby-leung">Ruby L. Leung</a></li><li><a href="https://climate.ucdavis.edu/">Paul Ullrich</a></li><li><a href="https://sites.google.com/view/srahimi/home">Stefan Rahimi</a></li><li><a href="https://www.ou.edu/coe/labs/hydros">Yang Hong</a></li>
+        </ul>
+        <a class="link-arrow" href="/projects/">All projects &amp; partners</a>
+      </article>
+    </div>
+  </div>
+</section>
 
-  </body>
+<section class="section">
+  <div class="container team-grid reveal">
+    <div>
+      <p class="eyebrow">Our team</p>
+      <h2>Meet the RHyCAM Team</h2>
+      <p class="lede">We are atmospheric scientists, hydrologists, and engineers working side by side at the National Weather Center in Norman, Oklahoma.</p>
+      <a class="btn btn-primary" href="/people/">Meet the people</a>
+    </div>
+    <ul class="faces">
+      <li><img src="/images/teampic/ChenXiaodong.png" alt="" loading="lazy"><span class="face-name">Xiaodong Chen</span><span class="face-role">Assistant Professor</span></li>
+      <li><img src="/images/teampic/CuiWenjun.png" alt="" loading="lazy"><span class="face-name">Wenjun Cui</span><span class="face-role">Scientist</span></li>
+      <li><img src="/images/teampic/ZhangLujun.png" alt="" loading="lazy"><span class="face-name">Lujun Zhang</span><span class="face-role">Postdoctoral Research Associate</span></li>
+      <li><img src="/images/teampic/SongYiming.png" alt="" loading="lazy"><span class="face-name">Yiming Song</span><span class="face-role">Ph.D. Student</span></li>
+      <li><img src="/images/teampic/BurgeLauren.png" alt="" loading="lazy"><span class="face-name">Lauren Burge</span><span class="face-role">Undergraduate Researcher</span></li>
+    </ul>
+  </div>
+</section>
 
+<section class="section section-tint">
+  <div class="container news-grid">
+    <div>
+      <div class="section-head">
+  <p class="eyebrow">Latest news</p>
+  <h2>What's new</h2>
+  
+  
+</div>
+
+      <ul class="news-list"><li class="news-item">
+  <div class="news-meta">
+    <time datetime="2026-10-16">Oct 16, 2026</time><span class="tag tag-publication">Publication</span>
+  </div>
+  <p class="news-text"><a href="https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2026MS005968">Collaboration paper</a> published in <i>JAMES</i>, looking into storm reconstruction using the E3SM SCREAM model.
+</p>
+</li>
+<li class="news-item">
+  <div class="news-meta">
+    <time datetime="2026-08-23">Aug 23, 2026</time><span class="tag tag-award">Award</span>
+  </div>
+  <p class="news-text">Xiaodong is invited to join the npj Hydrosphere editorial board.
+</p>
+</li>
+<li class="news-item">
+  <div class="news-meta">
+    <time datetime="2026-07-04">Jul 4, 2026</time><span class="tag tag-publication">Publication</span>
+  </div>
+  <p class="news-text"><a href="https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2025GL119814">Collaboration paper</a> published in <i>GRL</i>, exploring the use of AI in hydrologic modeling.
+</p>
+</li>
+
+      </ul>
+      <a class="link-arrow" href="/news/">All news</a>
+    </div>
+    <div class="openings is-open">
+  <p class="eyebrow">Join our group</p>
+  <h3><span class="status-dot" aria-hidden="true"></span>Positions open</h3>
+  <p>We are looking for 1 postdoc (starting January 2027) and 1 Ph.D. student (starting Fall 2027).</p><a class="btn btn-light" href="/join/">Opportunities &amp; contact</a>
+</div>
+
+  </div>
+</section>
+<script src="/assets/js/hero-video.js" defer></script>
+
+  </main>
+  <footer class="site-footer">
+  <div class="container footer-grid">
+    <div class="footer-brand">
+      <p class="footer-name">RHyCAM Lab</p>
+      <p>Regional HydroClimate Analysis and Modeling Lab<br>University of Oklahoma</p>
+      <div class="footer-credits">
+        <p>© 2026 RHyCAM Lab</p>
+        <p>Figures © RHyCAM Lab and cited publications unless otherwise credited.</p>
+        <p>Hero imagery: GOES-West, December 4–5, 2023 · NASA.</p>
+      </div>
+    </div>
+    <div>
+      <p class="footer-head">Visit</p>
+      <address>National Weather Center<br>120 David L Boren Blvd.<br>Norman, OK 73072<br>Office NWC 4618
+      </address>
+      <p><a href="https://maps.app.goo.gl/wZyxmRRSNbHs1AsU7">Map</a></p>
+    </div>
+    <div>
+      <p class="footer-head">Explore</p>
+      <ul class="footer-links"><li><a href="/research/">Research</a></li><li><a href="/discoveries/">Discoveries</a></li><li><a href="/projects/">Projects & Partners</a></li><li><a href="/people/">People</a></li><li><a href="/join/">Join / Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</footer>
+
+</body>
 </html>
