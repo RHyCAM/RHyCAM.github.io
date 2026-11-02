@@ -572,3 +572,43 @@ ul.plain li { padding: .35em 0; }
 .approach .section-head p { max-width: 44em; }
 /* Figure without frame: the image sits directly on the page background */
 .figure.plain img { border: 0; border-radius: 0; background: none; }
+
+/* ---------- figure enlargement (a[data-zoom], assets/js/figure-zoom.js) ---------- */
+.zoom-trigger { position: relative; display: block; cursor: zoom-in; border-radius: var(--radius); }
+.zoom-trigger img { display: block; }
+.zoom-hint {
+  position: absolute; right: 12px; bottom: 12px;
+  display: inline-flex; align-items: center; gap: 6px;
+  padding: 6px 12px; border-radius: 999px;
+  background: rgba(11, 29, 45, .78); color: var(--white);
+  font: 500 .85rem/1 var(--font-body);
+  opacity: 0; transition: opacity .18s ease; pointer-events: none;
+}
+.zoom-hint svg { width: 14px; height: 14px; fill: none; stroke: var(--teal); stroke-width: 1.8; stroke-linecap: round; }
+.zoom-trigger:hover .zoom-hint, .zoom-trigger:focus-visible .zoom-hint { opacity: 1; }
+
+html.lightbox-open { overflow: hidden; }
+.lightbox {
+  position: fixed; inset: 0; width: 100%; height: 100%; max-width: none; max-height: none;
+  margin: 0; padding: 56px 32px 24px; border: 0; background: transparent;
+  display: none; flex-direction: column; align-items: center; justify-content: center; gap: 16px;
+}
+.lightbox[open] { display: flex; }
+.lightbox::backdrop { background: rgba(11, 29, 45, .92); }
+.lightbox-img {
+  max-width: 100%; max-height: calc(100% - 48px); width: auto; height: auto;
+  object-fit: contain; border-radius: 6px; background: var(--white); cursor: default;
+}
+.lightbox-close {
+  position: absolute; top: 12px; right: 12px; width: 40px; height: 40px;
+  display: grid; place-items: center; padding: 0; cursor: pointer;
+  border: 1px solid var(--line-dark); border-radius: 8px;
+  background: rgba(23, 58, 80, .9); color: var(--white);
+}
+.lightbox-close svg { width: 16px; height: 16px; stroke: currentColor; stroke-width: 2; stroke-linecap: round; }
+.lightbox-close:hover { border-color: var(--teal); color: var(--teal); }
+.lightbox-full { color: var(--teal); font-size: .92rem; text-decoration: underline; text-underline-offset: 3px; }
+.lightbox-full:hover { color: var(--white); }
+@media (max-width: 640px) {
+  .lightbox { padding: 60px 8px 20px; }
+}
